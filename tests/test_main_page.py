@@ -41,3 +41,13 @@ def test_link_telegram(main_page):
 def test_link_instagram(main_page):
     main_page.open_page()
     main_page.check_link_instagram()
+
+
+def test_scroll_to_footer_main(main_page):
+    main_page.open_page()
+    main_page.check_text_main_footer("ООО «Артмас Мебель»")
+
+
+def test_element_meddle_page(main_page):
+    main_page.open_page()
+    main_page.check_text_in_middle_page('Кровать "LISBON"', 1300)

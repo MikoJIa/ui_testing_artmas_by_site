@@ -119,3 +119,8 @@ loc_text_instagram = (
     By.XPATH,
     "//span[contains(text(), 'See photos, videos and more from artmas.by')]",
 )
+loc_text_footer = (By.XPATH, '//span[contains(text(), "ООО «Артмас Мебель»")]')
+loc_lisbon = (
+    By.XPATH,
+    '//div[@class="t754__textwrapper"]//div[@field="li_title__3156925032118"]',
+)
