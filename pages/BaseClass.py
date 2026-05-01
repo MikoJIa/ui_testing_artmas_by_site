@@ -46,3 +46,6 @@ class BaseClass:
 
     def get_current_url(self):
         return self.driver.current_url
+
+    def send(self,object, text):
+        object.send_keys(text)
